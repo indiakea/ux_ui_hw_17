@@ -1,0 +1,37 @@
+
+.nav ul {
+    list-style-type: none;
+    display:flex;
+}
+
+.nav li {
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 20%;
+    margin: 0 auto;
+}
+
+.heroImg {
+    display: flex;
+    padding: 20%;
+}
+
+.heroImg img {
+    width:472px;    
+
+}
+.container2{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
