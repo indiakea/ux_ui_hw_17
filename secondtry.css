@@ -6,10 +6,15 @@
 
 .nav li {
     align-items: center;
+    padding-left: 20px;
+    padding-right: 5%;
 }
 
 .nav {
     display: flex;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
     justify-content: space-between;
 }
 
@@ -23,15 +28,64 @@
 
 .heroImg {
     display: flex;
-    padding: 20%;
+    padding: 10%;
 }
 
 .heroImg img {
-    width:472px;    
-
+    width:350px; 
+    height:350x;   
+    padding-left: 25%;
 }
-.container2{
+
+.featured {
+    font-size: 22px;
+    color: orange;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.text{
     display: inline-block;
     width: 500px;
-    height: 500px;
+    height: 250px;
+    padding-left: 10%;
+}
+
+.BlackGirls {
+    display: flex;
+    padding-right: 10%;
+}
+
+.BlackGirls img {
+    width: 450px;
+    height: 350px;
+    padding-left: 25%;
+}
+
+.Eunoia {
+    display: flex;
+    padding-right: 10%;
+}
+
+.Eunoia img {
+    width: 450px;
+    height: 350px;
+    padding-left: 25%;
+}
+
+.Mode {
+    display: flex;
+    padding-right: 10%;
+}
+
+.Mode img {
+    width: 450px;
+    height: 350px;
+    padding-left: 25%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
 }
