@@ -13,7 +13,7 @@
 .nav {
     display: flex;
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     color: orange;
     justify-content: space-between;
 }
@@ -40,8 +40,8 @@
 .featured {
     font-size: 22px;
     color: orange;
-    padding-bottom: 5%;
-    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-left: 13%;
 }
 .text{
     display: inline-block;
@@ -50,37 +50,45 @@
     padding-left: 10%;
 }
 
-.BlackGirls {
+.portfolio {
     display: flex;
-    padding-right: 10%;
+    padding: 10%;
 }
 
-.BlackGirls img {
-    width: 450px;
+.portfolio img{
+    width: 400px;
     height: 350px;
     padding-left: 25%;
+
+}
+
+.portfolio2 {
+    display: flex;
+    padding-right: 10%;
+    
+}
+
+.portfolio2 img {
+    width: 400px;
+    height: 350px;
+    padding-left: 55%;
+    padding-bottom: 25%;
 }
 
 .Eunoia {
+    padding-left: 35%; 
+}
+
+.portfolio3 {
     display: flex;
-    padding-right: 10%;
+    padding-left: 10%;
 }
 
-.Eunoia img {
-    width: 450px;
+.portfolio3 img {
+    width: 400px;
     height: 350px;
-    padding-left: 25%;
-}
-
-.Mode {
-    display: flex;
-    padding-right: 10%;
-}
-
-.Mode img {
-    width: 450px;
-    height: 350px;
-    padding-left: 25%;
+    padding-left: 10%;
+    padding-bottom: 25%;
 }
 
 .footer {
