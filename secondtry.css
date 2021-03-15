@@ -2,6 +2,7 @@
 .nav ul {
     list-style-type: none;
     display:flex;
+    padding: 0 25px;
 }
 
 .nav li {
@@ -75,10 +76,6 @@
     padding-bottom: 25%;
 }
 
-.Eunoia {
-    padding-left: 35%; 
-}
-
 .portfolio3 {
     display: flex;
     padding-left: 10%;
@@ -94,6 +91,11 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     color: orange;
+    padding-right:20px;
+}
+
+.footer p {
+    padding-bottom: 30px;
 }
