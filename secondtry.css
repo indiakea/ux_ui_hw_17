@@ -13,17 +13,18 @@
 
 .nav {
     display: flex;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: orange;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(255, 115, 0);
     justify-content: space-between;
 }
 
 .section {
-    display: inline-block;
+    display: flex;
     width: 50px;
     height: 50px;
-    padding: 20%;
+    padding: 10%;
     margin: 0 auto;
 }
 
@@ -36,66 +37,66 @@
     width:350px; 
     height:350x;   
     padding-left: 25%;
+    
 }
 
 .featured {
+    display: flex;
     font-size: 22px;
-    color: orange;
+    color: rgb(255, 115, 0);
     padding-bottom: 1%;
     padding-left: 13%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+button {
+margin: 0;
+border-color: rgb(255, 115, 0);
+background-color: white;
+padding: 12px 28px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 14px;
+
+}
+
 .text{
     display: inline-block;
-    width: 500px;
+    width: 400px;
     height: 250px;
     padding-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .portfolio {
     display: flex;
-    padding: 10%;
+    padding: 0 10%;
 }
 
 .portfolio img{
     width: 400px;
     height: 350px;
     padding-left: 25%;
+    display:inline-flex;
 
-}
-
-.portfolio2 {
-    display: flex;
-    padding-right: 10%;
-    
-}
-
-.portfolio2 img {
-    width: 400px;
-    height: 350px;
-    padding-left: 55%;
-    padding-bottom: 25%;
-}
-
-.portfolio3 {
-    display: flex;
-    padding-left: 10%;
-}
-
-.portfolio3 img {
-    width: 400px;
-    height: 350px;
-    padding-left: 10%;
-    padding-bottom: 25%;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    font-family: 'Times New Roman', Times, serif;
-    color: orange;
-    padding-right:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 115, 0);
+    padding:0 5%;
 }
 
-.footer p {
-    padding-bottom: 30px;
+.footer ul {
+    list-style-type: none;
+    display:flex;
+    padding: 0 25px;
+}
+
+.footer li {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 0 auto;
 }
