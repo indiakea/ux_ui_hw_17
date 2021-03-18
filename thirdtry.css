@@ -23,8 +23,11 @@
     display:flex;
     width:350px;
     height:350px;
-    padding: 10%;
-    margin: 0;
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    margin:0;
 
 }
 
